@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+  .dropdown:hover .dropdown-content {
+    @apply xl:top-[60px]
+  }
+  
+  
+}
 
 body {
   margin: 0;
